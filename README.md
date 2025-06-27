@@ -3,8 +3,8 @@
 Ce projet est une page web statique interactive réalisée dans le cadre de l'examen de Développement Web (HTML, CSS, JavaScript) du semestre 2 à KEVCE Academy.
 
 ## Auteur
-- **Nom**: John Doe
-- **École**: KEVCE Academy
+- **Nom**: ESSAKA DINH Marcel
+- **École**: KEYCE Academy
 - **Filière**: IABD
 - **Niveau**: B1
 
