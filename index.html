@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - KEVCE Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="img/profile.png" alt="Photo de profil" class="profile-img">
+            <div class="header-text">
+                <h1>John Doe</h1>
+                <h2>Étudiant à KEVCE Academy</h2>
+                <div class="badge">Filière: IABD - Niveau: B1</div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="skills" class="section">
+            <h2><i class="fas fa-code"></i> Mes Compétences Techniques</h2>
+            <div class="skills-container">
+                <div class="skill-buttons">
+                    <button class="skill-btn" data-skill="html">HTML5</button>
+                    <button class="skill-btn" data-skill="css">CSS3</button>
+                    <button class="skill-btn" data-skill="js">JavaScript</button>
+                    <button class="skill-btn" data-skill="wp">WordPress</button>
+                    <button class="skill-btn" data-skill="git">Git</button>
+                    <button class="skill-btn" data-skill="responsive">Responsive Design</button>
+                    <button class="skill-btn" data-skill="ui">UI/UX</button>
+                </div>
+                
+                <div class="skill-description" id="skill-description">
+                    <p>Cliquez sur une compétence pour voir sa description</p>
+                </div>
+                
+                <div class="skill-stats">
+                    <h3><i class="fas fa-chart-bar"></i> Compétences consultées</h3>
+                    <ul id="skill-counter"></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2><i class="fas fa-project-diagram"></i> Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Portfolio Personnel</h3>
+                    <p>Création d'un site portfolio responsive avec animations CSS et interactions JavaScript.</p>
+                    <a href="https://github.com/johndoe/portfolio" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i> Voir sur GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>Application d'agenda</h3>
+                    <p>Application web utilisant l'API ElevenLabs pour créer, modifier, et supprimer des rendez-vous, de gérer des tâches, et de recevoir des rappels vocaux personnalisés </p>
+                    <a href="https://github.com/marcel0057/SmartAgendaApp" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i> Voir sur GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>Jeu de Puzzle</h3>
+                    <p>Jeu de puzzle en JavaScript pur avec système de score et minuteries.</p>
+                    <a href="https://github.com/marcel0057/Puzzle" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i> Voir sur GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2><i class="fas fa-envelope"></i> Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> +237 6XX XX XX XX</p>
+                    <p><i class="fas fa-envelope"></i> john.doe@kevce-academy.cm</p>
+                    <p>
+                        <i class="fab fa-linkedin"></i> 
+                        <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a>
+                    </p>
+                    <p><i class="fab fa-skype"></i> john.doe</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Envoyez-moi un message</h3>
+                    <form id="message-form">
+                        <input type="text" placeholder="Votre nom" required>
+                        <input type="email" placeholder="Votre email" required>
+                        <textarea placeholder="Votre message" required></textarea>
+                        <button type="submit">Envoyer <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John Doe - KEVCE Academy</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
